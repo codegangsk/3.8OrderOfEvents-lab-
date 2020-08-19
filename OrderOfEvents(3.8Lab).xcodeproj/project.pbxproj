@@ -15,6 +15,8 @@
 		2A9445EC24EC35E30079D734 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A9445EA24EC35E30079D734 /* LaunchScreen.storyboard */; };
 		2A9445F724EC35E30079D734 /* OrderOfEvents_3_8Lab_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A9445F624EC35E30079D734 /* OrderOfEvents_3_8Lab_Tests.swift */; };
 		2A94460224EC35E30079D734 /* OrderOfEvents_3_8Lab_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A94460124EC35E30079D734 /* OrderOfEvents_3_8Lab_UITests.swift */; };
+		2A94461024EC36440079D734 /* MiddleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A94460F24EC36440079D734 /* MiddleViewController.swift */; };
+		2A94461224EC37010079D734 /* LastViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A94461124EC37010079D734 /* LastViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		2A9445FD24EC35E30079D734 /* OrderOfEvents(3.8Lab)UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OrderOfEvents(3.8Lab)UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A94460124EC35E30079D734 /* OrderOfEvents_3_8Lab_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderOfEvents_3_8Lab_UITests.swift; sourceTree = "<group>"; };
 		2A94460324EC35E30079D734 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A94460F24EC36440079D734 /* MiddleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiddleViewController.swift; sourceTree = "<group>"; };
+		2A94461124EC37010079D734 /* LastViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LastViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				2A9445E124EC35E20079D734 /* SceneDelegate.swift */,
 				2A9445E324EC35E20079D734 /* ViewController.swift */,
 				2A9445E524EC35E20079D734 /* Main.storyboard */,
+				2A94460F24EC36440079D734 /* MiddleViewController.swift */,
+				2A94461124EC37010079D734 /* LastViewController.swift */,
 				2A9445E824EC35E30079D734 /* Assets.xcassets */,
 				2A9445EA24EC35E30079D734 /* LaunchScreen.storyboard */,
 				2A9445ED24EC35E30079D734 /* Info.plist */,
@@ -260,8 +266,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				2A9445E424EC35E20079D734 /* ViewController.swift in Sources */,
+				2A94461224EC37010079D734 /* LastViewController.swift in Sources */,
 				2A9445E024EC35E20079D734 /* AppDelegate.swift in Sources */,
 				2A9445E224EC35E20079D734 /* SceneDelegate.swift in Sources */,
+				2A94461024EC36440079D734 /* MiddleViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
